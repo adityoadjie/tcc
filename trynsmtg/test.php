@@ -1,3 +1,5 @@
 <?php
-echo "coba deh~";
+echo "Adityo Aji";
+echo "Mengucapkan";
+echo "Selamat berjuang~ <3";
 ?>

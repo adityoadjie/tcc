@@ -31,7 +31,7 @@ Docker swarm digunakan untuk memanajemen cluster secara lokal. Pada cluster terd
 
 Minikube adalah tool yang berfungsi untuk menjalankan kubernetes secara lokal seperti pada judul. Minikube menjalankan cluster kubernetes didalam VM pada laptop/komputer. Untuk berinteraksi dengan cluster, digunakan kuberctl. Untuk mengetahui dan mengatur konfigurasi cluster, minikube memiliki dashboard yang dapat diakses dari browser. Service dapat dideploy dalam cluster dan dapat di-manage melalui *minikube service*
 
-### Unikernel ###
+### Unikernel:  ###
 
 Unikernel adalah machine image dengan address tunggal yang terspesialisasi. Unikernel bersifat sangat ringan karena hanya memiliki library yang diperlukan untuk menjalankan sebuah aplikasi dan hanya dapat menjalankan satu aplikasi. Karena sifat ini, unikernel dapat di-boot dengan cepat dan memiliki attack surface (resiko terhadap serangan penyusup) yang sangat kecil.
 

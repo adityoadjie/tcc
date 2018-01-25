@@ -8,5 +8,5 @@ Docker merupakan software yang menyediakan virtualisasi selevel operating sistem
 * membuat dan mengatur cluster secara lokal, serta melakukan konfigurasi terhadap susunan nodes, mendeploy service, melakukan scaling up/down pada service yang berjalan pada nodes menggunakan docker engine dan docker swarm.
 
 Dalam praktik, pembelajaran menggunakan docker meliputi 4 jenis fungsi docker seperti yang sudah disebutkan di atas, yaitu docker image, docker compose, docker machine, dan docker swarm.
-** Docker Image **
+**Docker Image**
 Docker image digunakan untuk membuat dan mengkonfigurasi image 

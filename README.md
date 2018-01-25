@@ -27,5 +27,12 @@ Docker machine digunakan untuk menbuat docker engine pada host virtual. Docker m
 
 Docker swarm digunakan untuk memanajemen cluster secara lokal. Pada cluster terdapat nodes yang saling terhubung. Untuk membuat node adalah dengan mengggunakan docker machine. Docker engine yang dibuat dapat dibuat menjadi leader pada swarm atau digabungkan sebagai node pada swarm yang sudah ada. Pada sebuah swarm terdapat sebuah leader node yang berfungsi untuk memanajeman swarm dan beberapa worker nodes untuk membantu leader node menampung service yang akan dideploy.
 
-**Minikube: Menjalankan Kubernetes Secara Lokal**
+### Minikube: Menjalankan Kubernetes Secara Lokal ###
 
+Minikube adalah tool yang berfungsi untuk menjalankan kubernetes secara lokal seperti pada judul. Minikube menjalankan cluster kubernetes didalam VM pada laptop/komputer. Untuk berinteraksi dengan cluster, digunakan kuberctl. Untuk mengetahui dan mengatur konfigurasi cluster, minikube memiliki dashboard yang dapat diakses dari browser. Service dapat dideploy dalam cluster dan dapat di-manage melalui *minikube service*
+
+### Unikernel ###
+
+Unikernel adalah machine image dengan address tunggal yang terspesialisasi. Unikernel bersifat sangat ringan karena hanya memiliki library yang diperlukan untuk menjalankan sebuah aplikasi dan hanya dapat menjalankan satu aplikasi. Karena sifat ini, unikernel dapat di-boot dengan cepat dan memiliki attack surface (resiko terhadap serangan penyusup) yang sangat kecil.
+
+Dalam praktik, UniK digunakan untuk membuat unikernel. Unik adalah tool yang digunakan untuk meng-compile sources yang akan digunakan pada aplikasi menjadi unikernel. Image yang ter-compile dapat dimanage secara local menggunakan virtualbox. 

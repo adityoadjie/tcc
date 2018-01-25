@@ -9,4 +9,5 @@ Docker merupakan software yang menyediakan virtualisasi selevel operating sistem
 
 Dalam praktik, pembelajaran menggunakan docker meliputi 4 jenis fungsi docker seperti yang sudah disebutkan di atas, yaitu docker image, docker compose, docker machine, dan docker swarm.
 **Docker Image**
+
 Docker image digunakan untuk membuat dan mengkonfigurasi image 
